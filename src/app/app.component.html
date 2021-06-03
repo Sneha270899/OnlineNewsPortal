@@ -1,0 +1,2008 @@
+<!-- 
+<nav class="navbar navbar-expand-lg fixed-top font-weight-bold ">
+  <a class="navbar-brand nav-link p-2" href="#">
+      News Portal
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                  &nbsp;<i class="fa fa-home"></i>&nbsp; Home
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                  &nbsp;<i class="fa fa-info-circle"></i>&nbsp; About
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                  &nbsp;<i class="fa fa-calendar"></i>&nbsp; Events
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                  &nbsp;<i class="fa fa-images"></i>&nbsp; Photos
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                  &nbsp;<i class="fa fa-youtube"></i>&nbsp; Videos
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                  &nbsp;<i class="fa fa-cog"></i>&nbsp; Support
+              </a>
+          </li> -->
+          
+      <!-- </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mr-auto">
+          <div class="input-group ">
+              <input type="text" class="form-control-sm" placeholder="Search this blog">
+              <div class="input-group-append">
+                  <button class="btn btn-secondary" type="button">
+                      <i class="fa fa-search"></i>
+                  </button>
+              </div>
+          </div>
+      </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                  &nbsp;<i class="fa fa-github"></i>&nbsp; Github
+              </a> 
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">
+                  &nbsp;<i class="fa fa-sign-in-alt"></i>&nbsp; Login
+              </a>
+          </li>
+      </ul>
+  </div>
+</nav>   -->
+
+       
+<!-- <nav class="sidenav"></nav>
+ <nav class="navbar navbar-expand-lg fixed-bottom font-weight-bold">
+  <a class="navbar-brand nav-link p-2" href="#">
+    NewsPortal
+</a>
+</nav>  -->
+<!-- <div class="card-deck">
+    <div class="card">
+        <div class="card-header">
+            Button Enable & Disable
+        </div>
+        <div class="card-body">
+            <button  (click)="toggleButton()" [disabled]="isDisabled" class="btn btn-primary">Click For
+                {{isDisabled ? "Enabled" : "Disabled" }}
+            </button><br><br>
+            <button (click)="toggleButton()" class="btn btn-primary">
+                Click
+            </button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Text Hide & Show
+        </div>
+        <div class="card-body">
+            <button (click)="toggleShow()"  class="btn btn-primary">
+                {{display ? "Hide" : "Show" }}
+            </button>
+            <h1 >{{display ? "Welcome in Angular" : " "}}</h1>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Image Hide & Show
+        </div>
+        <div class="card-body">
+            <div class="card-body">
+                <div *ngIf=imgShow> 
+                    <img [src]="img">
+                </div><br>
+                <button (click)="toggleImg()"  class="btn btn-primary">
+                    {{imgShow ? "Hide" : "Show" }}
+                </button>
+            </div>
+        </div>
+    </div>
+  </div> -->
+<!-- <header>
+    <div class="container-menu-desktop">
+        <div class="topbar">
+            <div class="content-topbar container h-100">
+                <div class="left-topbar">
+                    <span class="left-topbar-item flex-wr-s-c">
+                        <span>
+                            New York, NY
+                        </span>
+                        <img class="m-b-1 m-rl-8" src="" alt="IMG" >
+                        <span>
+                            HI 58° LO 56°
+                        </span>
+                    </span>
+                    <a href="#" class="left-topbar-item">
+                    About
+                    </a>
+                    <a href="#" class="left-topbar-item">
+                    Contact
+                    </a>
+                    <a href="#" class="left-topbar-item">
+                    Sing up
+                    </a>
+                    <a href="#" class="left-topbar-item">
+                    Log in
+                    </a>
+                </div>
+                <div class="right-topbar">
+                    <a href="#">
+                    <span class="fab fa-facebook-f"></span>
+                    </a>
+                    <a href="#">
+                    <span class="fab fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                    <span class="fab fa-pinterest-p"></span>
+                    </a>
+                    <a href="#">
+                    <span class="fab fa-vimeo-v"></span>
+                    </a>
+                    <a href="#">
+                    <span class="fab fa-youtube"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+    <div class="wrap-header-mobile">
+        <div class="logo-mobile">
+            <a href="index.html"><img src="data:image/webp;base64,UklGRvAEAABXRUJQVlA4TOQEAAAv3cAHEPdAkG1TlksfeQpiwWQs+ev1CwRSHMtQCwQIC/4jJUiwGsUfGHAg23aTREAkxlAsscL+9+l/732ygoj+Q5AkuW0zcIJAiYvDHgL9g9eG5R14uW+kBFEKqFmCq1zL24haSxF6jod/GYWW9i/lxHQ5CkjrmdT41xGZjk7rGozgJp5BCGObeZ/ffn6gBsImRuK70fK+WkUsasf6mCC1TGqvojgdeJTHExcdNXfa5Xl1c0M1XyvHORA08CJq5+okc4OJSG2MI4iMi5GVrYgkVbdZ8XbUHXCd1hJsHP6vyvIKQUStmWqTzQ0SKs1WT6YJQoJ8dshusmCl1RfH66VnEAW+HX+KqJ12IKzPTUITfLDio04QFvDeuDJ2B9OPyYbPU13d3OkgiP4/N2dZpCcuddAJzicvh46Bduys4h8FL1En+HP6zm+JYta/TZYijEVp6yE8zycvroPky6QdebQJyFm9DuD1bfPODx+c42aI8kq6IjjEymS8kMxXYv4iopKYGJgQznYndTfWC56la0Epi1Z4FdjFdgfuhkRayMgQQ3X2ar2Oj1YgsMIExf398/CF9+uVppCc0u4q1KANLLbVIIIGlt5dxxp6oglIVHD8lwvwslVRfzu4gu3xBnQacKxOxZY7jVqEKacaxCd9IDk9DLaBCE80c3qHbKBYN9z4Puju4Ik+WGUQSXY7iohaB4ttTZJRyiRk+z42g2U+jQ9+CqmS+tUBCeZzExk079g3BR41GNpTRUTo4P2NbSABFzNdl5y8IJI0e8tNA0J+ZKVa5ZXv4CgiajAhXerskQKYgdgePrNH60dMAjHVtXFyEb7E4yjBwYs4Bd1zU6vsaz9TC5uXigzW6eCeaIPZ2CvtwsYF2svZCy8cbVa9grsfkpmG8i3CeCM4lquXcDw4d6hJwuUGb5IxRRqy1wWFLRPdXwQfcPWX1R08WBqQ6gw/qgEjfcj1sEFsWAtpmOw5hZdI/zhmAakSAUXygTjx+esBL1dkbMAEtS5Ba5AW0pDESRXPYgP7IzJ+xCrEPJpFbKSg+lGX7Ics+LEivV2bJ1iiSQOZCPQLEb8GDkQT7+KgkCQQDz7EB1UANTRjPaINUIK9LDbYaCen1ASHmISsATNh+WC0XsC+g+NW3LuIxQXfevb1yDaDBtjLkoYGHhe4h8J2hIYOPhdGX3N1fMPK7NgB7kB0OVXDhi901v+kYbTB9hd7u0xCh75eiRXegqeX7SZ273Ww72+bKhBNF/A/aUi85axP5LAbi8hMDockjT+C1c1Ln7xqcDlAcbBj+I/U/9kKoS3p4Eh+xSKmoW/Q3H3fkONU42+pQjjVQxyWO+E5voeYHA+LRg+zmqMEbx9sZboxyf8eLGXdx9RUZUKNg9jsiT3EkZ6a+UGTw6qLZhaTV+CBfO+YDhyITtcjdKAxaxf1QeVYS5RlO2yTAPd8n6AprseLq3jw8a1LOFZCWKRxuCg6tJ0S3ykNgSAeUwi4hhvt7UuonJ1fn9kbtdGDo4zKIr3DRZl2pPfo7gKHZfWsWTbXof/OzsruKWF9BL8nYk2y0yGOrbuWfZw0D6gLxDrqex5+xRngI/76FiPR7fi2DmQfIQ9ZB7F19/13pj2HICDVopl/+sEwmMSxdyhwzw/515qfS0164hDS4N26x9jY5Il2RxEA" alt="IMG-LOGO" data-pagespeed-url-hash="3855485134" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+        </div>
+        <div class="btn-show-menu-mobile hamburger hamburger--squeeze m-r--8">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </div>
+    </div>
+    
+    <div class="menu-mobile">
+        <ul class="topbar-mobile">
+            <li class="left-topbar">
+                <span class="left-topbar-item flex-wr-s-c">
+                    <span>
+                        New York, NY
+                    </span>
+                    <img class="m-b-1 m-rl-8" src="data:image/webp;base64,UklGRrQAAABXRUJQVlA4TKcAAAAvCsACEM8hEEjyZxtriGEeZgVtG7m5T+73BPAEkzTVdgxSBwAAoEFMgICY2CioAKJjQRQMCCEWAAh8FASEeAgcAOAeQAjQADIKNkBAOIxsW01O3N2DewSHWP+lITVE9D9ASg/95ADobRvN7hIgtUuBXQGQNQI83U8VAw//M1jAdvHH6zSgigHWRw3ymwjIm660lctKBAi6F/q1jkwj3L9tkJLTOJ7nKgA=" alt="IMG" data-pagespeed-url-hash="2228610247" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    <span>
+                    HI 58° LO 56°
+                    </span>
+                </span>
+            </li>
+            <li class="left-topbar">
+                <a href="#" class="left-topbar-item">
+                    About
+                </a>
+                <a href="#" class="left-topbar-item">
+                    Contact
+                </a>
+                <a href="#" class="left-topbar-item">
+                    Sing up
+                </a>
+                <a href="#" class="left-topbar-item">
+                    Log in
+                </a>
+            </li>
+            <li class="right-topbar">
+                <a href="#">
+                    <span class="fas fa-facebook-f"></span>
+                </a>
+                <a href="#">
+                    <span class="fas fa-twitter"></span>
+                </a>
+                <a href="#">
+                    <span class="fas fa-pinterest-p"></span>
+                </a>
+                <a href="#">
+                    <span class="fas fa-vimeo-v"></span>
+                </a>
+                <a href="#">
+                    <span class="fas fa-youtube"></span>
+                </a>
+            </li>
+        </ul>
+        <ul class="main-menu-m">
+            <li>
+                <a href="index.html">Home</a>
+                <ul class="sub-menu-m">
+                    <li><a href="index.html">Homepage v1</a></li>
+                    <li><a href="home-02.html">Homepage v2</a></li>
+                    <li><a href="home-03.html">Homepage v3</a></li>
+                </ul>
+                <span class="arrow-main-menu-m">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </span>
+            </li>
+            <li>
+                <a href="category-01.html">News</a>
+            </li>
+            <li>
+                <a href="category-02.html">Entertainment </a>
+            </li>
+            <li>
+                <a href="category-01.html">Business</a>
+            </li>
+            <li>
+                <a href="category-02.html">Travel</a>
+            </li>
+            <li>
+                <a href="category-01.html">Life Style</a>
+            </li>
+            <li>
+                <a href="category-02.html">Video</a>
+            </li>
+            <li>
+                <a href="#">Features</a>
+                <ul class="sub-menu-m">
+                    <li><a href="category-01.html">Category Page v1</a></li>
+                    <li><a href="category-02.html">Category Page v2</a></li>
+                    <li><a href="blog-grid.html">Blog Grid Sidebar</a></li>
+                    <li><a href="blog-list-01.html">Blog List Sidebar v1</a></li>
+                    <li><a href="blog-list-02.html">Blog List Sidebar v2</a></li>
+                    <li><a href="blog-detail-01.html">Blog Detail Sidebar</a></li>
+                    <li><a href="blog-detail-02.html">Blog Detail No Sidebar</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <span class="arrow-main-menu-m">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </span>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="wrap-logo container">
+        <div class="logo">
+            <a href="index.html"><img src="data:image/webp;base64,UklGRvAEAABXRUJQVlA4TOQEAAAv3cAHEPdAkG1TlksfeQpiwWQs+ev1CwRSHMtQCwQIC/4jJUiwGsUfGHAg23aTREAkxlAsscL+9+l/732ygoj+Q5AkuW0zcIJAiYvDHgL9g9eG5R14uW+kBFEKqFmCq1zL24haSxF6jod/GYWW9i/lxHQ5CkjrmdT41xGZjk7rGozgJp5BCGObeZ/ffn6gBsImRuK70fK+WkUsasf6mCC1TGqvojgdeJTHExcdNXfa5Xl1c0M1XyvHORA08CJq5+okc4OJSG2MI4iMi5GVrYgkVbdZ8XbUHXCd1hJsHP6vyvIKQUStmWqTzQ0SKs1WT6YJQoJ8dshusmCl1RfH66VnEAW+HX+KqJ12IKzPTUITfLDio04QFvDeuDJ2B9OPyYbPU13d3OkgiP4/N2dZpCcuddAJzicvh46Bduys4h8FL1En+HP6zm+JYta/TZYijEVp6yE8zycvroPky6QdebQJyFm9DuD1bfPODx+c42aI8kq6IjjEymS8kMxXYv4iopKYGJgQznYndTfWC56la0Epi1Z4FdjFdgfuhkRayMgQQ3X2ar2Oj1YgsMIExf398/CF9+uVppCc0u4q1KANLLbVIIIGlt5dxxp6oglIVHD8lwvwslVRfzu4gu3xBnQacKxOxZY7jVqEKacaxCd9IDk9DLaBCE80c3qHbKBYN9z4Puju4Ik+WGUQSXY7iohaB4ttTZJRyiRk+z42g2U+jQ9+CqmS+tUBCeZzExk079g3BR41GNpTRUTo4P2NbSABFzNdl5y8IJI0e8tNA0J+ZKVa5ZXv4CgiajAhXerskQKYgdgePrNH60dMAjHVtXFyEb7E4yjBwYs4Bd1zU6vsaz9TC5uXigzW6eCeaIPZ2CvtwsYF2svZCy8cbVa9grsfkpmG8i3CeCM4lquXcDw4d6hJwuUGb5IxRRqy1wWFLRPdXwQfcPWX1R08WBqQ6gw/qgEjfcj1sEFsWAtpmOw5hZdI/zhmAakSAUXygTjx+esBL1dkbMAEtS5Ba5AW0pDESRXPYgP7IzJ+xCrEPJpFbKSg+lGX7Ics+LEivV2bJ1iiSQOZCPQLEb8GDkQT7+KgkCQQDz7EB1UANTRjPaINUIK9LDbYaCen1ASHmISsATNh+WC0XsC+g+NW3LuIxQXfevb1yDaDBtjLkoYGHhe4h8J2hIYOPhdGX3N1fMPK7NgB7kB0OVXDhi901v+kYbTB9hd7u0xCh75eiRXegqeX7SZ273Ww72+bKhBNF/A/aUi85axP5LAbi8hMDockjT+C1c1Ln7xqcDlAcbBj+I/U/9kKoS3p4Eh+xSKmoW/Q3H3fkONU42+pQjjVQxyWO+E5voeYHA+LRg+zmqMEbx9sZboxyf8eLGXdx9RUZUKNg9jsiT3EkZ6a+UGTw6qLZhaTV+CBfO+YDhyITtcjdKAxaxf1QeVYS5RlO2yTAPd8n6AprseLq3jw8a1LOFZCWKRxuCg6tJ0S3ykNgSAeUwi4hhvt7UuonJ1fn9kbtdGDo4zKIr3DRZl2pPfo7gKHZfWsWTbXof/OzsruKWF9BL8nYk2y0yGOrbuWfZw0D6gLxDrqex5+xRngI/76FiPR7fi2DmQfIQ9ZB7F19/13pj2HICDVopl/+sEwmMSxdyhwzw/515qfS0164hDS4N26x9jY5Il2RxEA" alt="LOGO" data-pagespeed-url-hash="3855485134" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+        </div>
+        <div class="banner-header">
+            <a href="#"><img src="images/xbanner-01.jpg.pagespeed.ic.PfHDQl50gz.webp" alt="IMG" data-pagespeed-url-hash="244219958" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+        </div>
+    </div>
+    
+    <div class="wrap-main-nav">
+        <div class="main-nav show-main-nav">
+            <nav class="menu-desktop">
+                <a class="logo-stick" href="index.html">
+                    <img src="data:image/webp;base64,UklGRvAEAABXRUJQVlA4TOQEAAAv3cAHEPdAkG1TlksfeQpiwWQs+ev1CwRSHMtQCwQIC/4jJUiwGsUfGHAg23aTREAkxlAsscL+9+l/732ygoj+Q5AkuW0zcIJAiYvDHgL9g9eG5R14uW+kBFEKqFmCq1zL24haSxF6jod/GYWW9i/lxHQ5CkjrmdT41xGZjk7rGozgJp5BCGObeZ/ffn6gBsImRuK70fK+WkUsasf6mCC1TGqvojgdeJTHExcdNXfa5Xl1c0M1XyvHORA08CJq5+okc4OJSG2MI4iMi5GVrYgkVbdZ8XbUHXCd1hJsHP6vyvIKQUStmWqTzQ0SKs1WT6YJQoJ8dshusmCl1RfH66VnEAW+HX+KqJ12IKzPTUITfLDio04QFvDeuDJ2B9OPyYbPU13d3OkgiP4/N2dZpCcuddAJzicvh46Bduys4h8FL1En+HP6zm+JYta/TZYijEVp6yE8zycvroPky6QdebQJyFm9DuD1bfPODx+c42aI8kq6IjjEymS8kMxXYv4iopKYGJgQznYndTfWC56la0Epi1Z4FdjFdgfuhkRayMgQQ3X2ar2Oj1YgsMIExf398/CF9+uVppCc0u4q1KANLLbVIIIGlt5dxxp6oglIVHD8lwvwslVRfzu4gu3xBnQacKxOxZY7jVqEKacaxCd9IDk9DLaBCE80c3qHbKBYN9z4Puju4Ik+WGUQSXY7iohaB4ttTZJRyiRk+z42g2U+jQ9+CqmS+tUBCeZzExk079g3BR41GNpTRUTo4P2NbSABFzNdl5y8IJI0e8tNA0J+ZKVa5ZXv4CgiajAhXerskQKYgdgePrNH60dMAjHVtXFyEb7E4yjBwYs4Bd1zU6vsaz9TC5uXigzW6eCeaIPZ2CvtwsYF2svZCy8cbVa9grsfkpmG8i3CeCM4lquXcDw4d6hJwuUGb5IxRRqy1wWFLRPdXwQfcPWX1R08WBqQ6gw/qgEjfcj1sEFsWAtpmOw5hZdI/zhmAakSAUXygTjx+esBL1dkbMAEtS5Ba5AW0pDESRXPYgP7IzJ+xCrEPJpFbKSg+lGX7Ics+LEivV2bJ1iiSQOZCPQLEb8GDkQT7+KgkCQQDz7EB1UANTRjPaINUIK9LDbYaCen1ASHmISsATNh+WC0XsC+g+NW3LuIxQXfevb1yDaDBtjLkoYGHhe4h8J2hIYOPhdGX3N1fMPK7NgB7kB0OVXDhi901v+kYbTB9hd7u0xCh75eiRXegqeX7SZ273Ww72+bKhBNF/A/aUi85axP5LAbi8hMDockjT+C1c1Ln7xqcDlAcbBj+I/U/9kKoS3p4Eh+xSKmoW/Q3H3fkONU42+pQjjVQxyWO+E5voeYHA+LRg+zmqMEbx9sZboxyf8eLGXdx9RUZUKNg9jsiT3EkZ6a+UGTw6qLZhaTV+CBfO+YDhyITtcjdKAxaxf1QeVYS5RlO2yTAPd8n6AprseLq3jw8a1LOFZCWKRxuCg6tJ0S3ykNgSAeUwi4hhvt7UuonJ1fn9kbtdGDo4zKIr3DRZl2pPfo7gKHZfWsWTbXof/OzsruKWF9BL8nYk2y0yGOrbuWfZw0D6gLxDrqex5+xRngI/76FiPR7fi2DmQfIQ9ZB7F19/13pj2HICDVopl/+sEwmMSxdyhwzw/515qfS0164hDS4N26x9jY5Il2RxEA" alt="LOGO" data-pagespeed-url-hash="3855485134" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </a>
+                <ul class="main-menu">
+                    <li class="main-menu-active">
+                        <a href="index.html">Home</a>
+                        <ul class="sub-menu">
+                            <li><a href="index.html">Homepage v1</a></li>
+                            <li><a href="home-02.html">Homepage v2</a></li>
+                            <li><a href="home-03.html">Homepage v3</a></li>
+                        </ul>
+                    </li>
+                    <li class="mega-menu-item">
+                        <a href="category-01.html">News</a>
+                            <div class="sub-mega-menu">
+                                <div class="nav flex-column nav-pills" role="tablist">
+                                    <a class="nav-link active" data-toggle="pill" href="#news-0" role="tab">All</a>
+                                    <a class="nav-link" data-toggle="pill" href="#news-1" role="tab">Entertaiment</a>
+                                    <a class="nav-link" data-toggle="pill" href="#news-2" role="tab">Fashion</a>
+                                    <a class="nav-link" data-toggle="pill" href="#news-3" role="tab">Life Style</a>
+                                    <a class="nav-link" data-toggle="pill" href="#news-4" role="tab">Technology</a>
+                                    <a class="nav-link" data-toggle="pill" href="#news-5" role="tab">Travel</a>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane show active" id="news-0" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div>
+                                                    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+                                                        <img src="images/xpost-05.jpg.pagespeed.ic.s1Z8iTpwXe.webp" alt="IMG" data-pagespeed-url-hash="4177490254" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                                    </a>
+                                                    <div class="p-t-10">
+                                                        <h5 class="p-b-5">
+                                                            <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                            Donec metus orci, malesuada et lectus vitae
+                                                            </a>
+                                                        </h5>
+                                                        <span class="cl8">
+                                                            <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+                                                            Music
+                                                            </a>
+                                                            <span class="f1-s-3 m-rl-3">
+                                                            -
+                                                            </span>
+                                                            <span class="f1-s-3">
+                                                            Feb 18
+                                                            </span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div>
+                                                    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+                                                        <img src="images/xpost-10.jpg.pagespeed.ic.TMbbnvFltG.webp" alt="IMG" data-pagespeed-url-hash="2629774636" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                                    </a>
+                                                    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Finance
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-14.jpg.pagespeed.ic._smxioTLvb.webp" alt="IMG" data-pagespeed-url-hash="3807774320" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Beach
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-36.jpg.pagespeed.ic.ZGCqBhJQrk.webp" alt="IMG" data-pagespeed-url-hash="4246342136" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Technology
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="tab-pane" id="news-1" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-50.jpg.pagespeed.ic.lwTHfgyV-v.webp" alt="IMG" data-pagespeed-url-hash="2328910584" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/post-08.jpg" alt="IMG" data-pagespeed-url-hash="766022721" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/post-07.jpg" alt="IMG" data-pagespeed-url-hash="471522800" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-06.jpg.pagespeed.ic.wgeGpf1Hgi.webp" alt="IMG" data-pagespeed-url-hash="177022879" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="tab-pane" id="news-2" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-21.jpg.pagespeed.ic.ZQeLSdAnv-.webp" alt="IMG" data-pagespeed-url-hash="2849058544" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-24.jpg.pagespeed.ic.ZSiI3Wj9Dq.webp" alt="IMG" data-pagespeed-url-hash="3732558307" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-22.jpg.pagespeed.ic.wqAjgQ3wT0.webp" alt="IMG" data-pagespeed-url-hash="3143558465" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-23.jpg.pagespeed.ic.aMq3wwOiQE.webp" alt="IMG" data-pagespeed-url-hash="3438058386" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="tab-pane" id="news-3" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-25.jpg.pagespeed.ic.xMfOgxF-54.webp" alt="IMG" data-pagespeed-url-hash="4027058228" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-27.jpg.pagespeed.ic.eKi-R6Efre.webp" alt="IMG" data-pagespeed-url-hash="321090774" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-26.jpg.pagespeed.ic.1_sWUBIBYo.webp" alt="IMG" data-pagespeed-url-hash="26590853" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-34.jpg.pagespeed.ic.8m5y32zf3N.webp" alt="IMG" data-pagespeed-url-hash="3657342294" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="tab-pane" id="news-4" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-35.jpg.pagespeed.ic.1OnIo7J0en.webp" alt="IMG" data-pagespeed-url-hash="3951842215" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-36.jpg.pagespeed.ic.ZGCqBhJQrk.webp" alt="IMG" data-pagespeed-url-hash="4246342136" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/post-37.jpg" alt="IMG" data-pagespeed-url-hash="245874761" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/post-38.jpg" alt="IMG" data-pagespeed-url-hash="540374682" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="tab-pane" id="news-5" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-39.jpg.pagespeed.ic._FthKn_32E.webp" alt="IMG" data-pagespeed-url-hash="834874603" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-41.jpg.pagespeed.ic.hxGh4mqIfZ.webp" alt="IMG" data-pagespeed-url-hash="2698626518" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-42.jpg.pagespeed.ic.u4RenQMqFW.webp" alt="IMG" data-pagespeed-url-hash="2993126439" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-40.jpg.pagespeed.ic.iWS2TP9s2F.webp" alt="IMG" data-pagespeed-url-hash="2404126597" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li class="mega-menu-item">
+    <a href="category-02.html">Entertainment </a>
+    <div class="sub-mega-menu">
+    <div class="nav flex-column nav-pills" role="tablist">
+    <a class="nav-link active" data-toggle="pill" href="#enter-1" role="tab">All</a>
+    <a class="nav-link" data-toggle="pill" href="#enter-2" role="tab">Game</a>
+    <a class="nav-link" data-toggle="pill" href="#enter-3" role="tab">Celebrity</a>
+    </div>
+    <div class="tab-content">
+    <div class="tab-pane show active" id="enter-1" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-25.jpg.pagespeed.ic.xMfOgxF-54.webp" alt="IMG" data-pagespeed-url-hash="4027058228" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-27.jpg.pagespeed.ic.eKi-R6Efre.webp" alt="IMG" data-pagespeed-url-hash="321090774" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-26.jpg.pagespeed.ic.1_sWUBIBYo.webp" alt="IMG" data-pagespeed-url-hash="26590853" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-34.jpg.pagespeed.ic.8m5y32zf3N.webp" alt="IMG" data-pagespeed-url-hash="3657342294" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="tab-pane" id="enter-2" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-35.jpg.pagespeed.ic.1OnIo7J0en.webp" alt="IMG" data-pagespeed-url-hash="3951842215" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-36.jpg.pagespeed.ic.ZGCqBhJQrk.webp" alt="IMG" data-pagespeed-url-hash="4246342136" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/post-37.jpg" alt="IMG" data-pagespeed-url-hash="245874761" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/post-38.jpg" alt="IMG" data-pagespeed-url-hash="540374682" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="tab-pane" id="enter-3" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-39.jpg.pagespeed.ic._FthKn_32E.webp" alt="IMG" data-pagespeed-url-hash="834874603" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-41.jpg.pagespeed.ic.hxGh4mqIfZ.webp" alt="IMG" data-pagespeed-url-hash="2698626518" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-42.jpg.pagespeed.ic.u4RenQMqFW.webp" alt="IMG" data-pagespeed-url-hash="2993126439" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-40.jpg.pagespeed.ic.iWS2TP9s2F.webp" alt="IMG" data-pagespeed-url-hash="2404126597" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li class="mega-menu-item">
+    <a href="category-01.html">Business</a>
+    <div class="sub-mega-menu">
+    <div class="nav flex-column nav-pills" role="tablist">
+    <a class="nav-link active" data-toggle="pill" href="#business-1" role="tab">All</a>
+    <a class="nav-link" data-toggle="pill" href="#business-2" role="tab">Economy</a>
+    </div>
+    <div class="tab-content">
+    <div class="tab-pane show active" id="business-1" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-10.jpg.pagespeed.ic.TMbbnvFltG.webp" alt="IMG" data-pagespeed-url-hash="2629774636" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-11.jpg.pagespeed.ic.UQAgfiqIgA.webp" alt="IMG" data-pagespeed-url-hash="2924274557" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-26.jpg.pagespeed.ic.1_sWUBIBYo.webp" alt="IMG" data-pagespeed-url-hash="26590853" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-34.jpg.pagespeed.ic.8m5y32zf3N.webp" alt="IMG" data-pagespeed-url-hash="3657342294" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="tab-pane" id="business-2" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-35.jpg.pagespeed.ic.1OnIo7J0en.webp" alt="IMG" data-pagespeed-url-hash="3951842215" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-36.jpg.pagespeed.ic.ZGCqBhJQrk.webp" alt="IMG" data-pagespeed-url-hash="4246342136" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/post-37.jpg" alt="IMG" data-pagespeed-url-hash="245874761" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/post-38.jpg" alt="IMG" data-pagespeed-url-hash="540374682" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li class="mega-menu-item">
+    <a href="category-02.html">Travel</a>
+    <div class="sub-mega-menu">
+    <div class="nav flex-column nav-pills" role="tablist">
+    <a class="nav-link active" data-toggle="pill" href="#travel-1" role="tab">All</a>
+    <a class="nav-link" data-toggle="pill" href="#travel-2" role="tab">Hotels</a>
+    </div>
+    <div class="tab-content">
+    <div class="tab-pane show active" id="travel-1" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-39.jpg.pagespeed.ic._FthKn_32E.webp" alt="IMG" data-pagespeed-url-hash="834874603" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-41.jpg.pagespeed.ic.hxGh4mqIfZ.webp" alt="IMG" data-pagespeed-url-hash="2698626518" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-42.jpg.pagespeed.ic.u4RenQMqFW.webp" alt="IMG" data-pagespeed-url-hash="2993126439" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-40.jpg.pagespeed.ic.iWS2TP9s2F.webp" alt="IMG" data-pagespeed-url-hash="2404126597" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="tab-pane" id="travel-2" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-35.jpg.pagespeed.ic.1OnIo7J0en.webp" alt="IMG" data-pagespeed-url-hash="3951842215" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-36.jpg.pagespeed.ic.ZGCqBhJQrk.webp" alt="IMG" data-pagespeed-url-hash="4246342136" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/post-37.jpg" alt="IMG" data-pagespeed-url-hash="245874761" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/post-38.jpg" alt="IMG" data-pagespeed-url-hash="540374682" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li class="mega-menu-item">
+    <a href="category-01.html">Life Style</a>
+    <div class="sub-mega-menu">
+    <div class="nav flex-column nav-pills" role="tablist">
+    <a class="nav-link active" data-toggle="pill" href="#life-1" role="tab">All</a>
+    </div>
+    <div class="tab-content">
+    <div class="tab-pane show active" id="life-1" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-25.jpg.pagespeed.ic.xMfOgxF-54.webp" alt="IMG" data-pagespeed-url-hash="4027058228" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-27.jpg.pagespeed.ic.eKi-R6Efre.webp" alt="IMG" data-pagespeed-url-hash="321090774" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-26.jpg.pagespeed.ic.1_sWUBIBYo.webp" alt="IMG" data-pagespeed-url-hash="26590853" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-34.jpg.pagespeed.ic.8m5y32zf3N.webp" alt="IMG" data-pagespeed-url-hash="3657342294" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li class="mega-menu-item">
+    <a href="category-02.html">Video</a>
+    <div class="sub-mega-menu">
+    <div class="nav flex-column nav-pills" role="tablist">
+    <a class="nav-link active" data-toggle="pill" href="#video-1" role="tab">All</a>
+    </div>
+    <div class="tab-content">
+    <div class="tab-pane show active" id="video-1" role="tabpanel">
+    <div class="row">
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-50.jpg.pagespeed.ic.lwTHfgyV-v.webp" alt="IMG" data-pagespeed-url-hash="2328910584" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 18
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/post-08.jpg" alt="IMG" data-pagespeed-url-hash="766022721" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Feb 12
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/post-07.jpg" alt="IMG" data-pagespeed-url-hash="471522800" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 20
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    <div class="col-3">
+    
+    <div>
+    <a href="blog-detail-01.html" class="wrap-pic-w hov1 trans-03">
+    <img src="images/xpost-06.jpg.pagespeed.ic.wgeGpf1Hgi.webp" alt="IMG" data-pagespeed-url-hash="177022879" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+    </a>
+    <div class="p-t-10">
+    <h5 class="p-b-5">
+    <a href="blog-detail-01.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+    Donec metus orci, malesuada et lectus vitae
+    </a>
+    </h5>
+    <span class="cl8">
+    <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+    Music
+    </a>
+    <span class="f1-s-3 m-rl-3">
+    -
+    </span>
+    <span class="f1-s-3">
+    Jan 15
+    </span>
+    </span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li>
+    <a href="#">Features</a>
+    <ul class="sub-menu">
+    <li><a href="category-01.html">Category Page v1</a></li>
+    <li><a href="category-02.html">Category Page v2</a></li>
+    <li><a href="blog-grid.html">Blog Grid Sidebar</a></li>
+    <li><a href="blog-list-01.html">Blog List Sidebar v1</a></li>
+    <li><a href="blog-list-02.html">Blog List Sidebar v2</a></li>
+    <li><a href="blog-detail-01.html">Blog Detail Sidebar</a></li>
+    <li><a href="blog-detail-02.html">Blog Detail No Sidebar</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    </li>
+    </ul>
+    </nav>
+    </div>
+    </div>
+    </div>
+</header> -->
+
+<router-outlet></router-outlet>
+<!-- <app-paid></app-paid> -->
+<!-- <app-signup-form></app-signup-form> -->
+ <!-- <app-login></app-login> -->
+ <!-- <app-reform></app-reform> -->
+ <app-change-form></app-change-form>
+

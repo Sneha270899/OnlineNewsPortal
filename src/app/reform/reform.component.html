@@ -1,0 +1,25 @@
+<div class="container">
+    <form [formGroup]="reactForm">
+        <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input type="text" formControlName="firstname" class="form-control" id="fname">
+            
+            <!-- <div class="alert alert-danger" *ngIf="reactForm.get('firstname').invalid && reactForm.get('firstname').touched">
+                First Name is Required
+            </div> -->
+            <div class="alert alert-danger" *ngIf="firstname.invalid && firstname.touched">
+                <div class="alert alert-danger" *ngIf="firstname.errors.required">First Name is Required</div>
+                <div class="alert alert-danger" *ngIf="firstname.errors.pattern">
+                    Only Enter Number
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="text" formControlName="lastname" class="form-control" id="lname">
+            <div class="alert alert-danger" *ngIf="reactForm.get('lastname').invalid && reactForm.get('lastname').touched"> 
+                Last Name is Required
+            </div>
+        </div>
+    </form>
+</div>
